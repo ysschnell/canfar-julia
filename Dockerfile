@@ -3,7 +3,7 @@ FROM images.canfar.net/skaha/base:latest
 
 USER root
 
-# Install Julia system dependencies and stable Julia 1.10 LTS
+# Install Julia system dependencies and download/unpack the true 1.10.4 tarball binary
 RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     ca-certificates \
