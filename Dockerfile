@@ -1,5 +1,5 @@
-# Start from a standard, stable CANFAR notebook stack
-FROM images.opencadc.org/canfar/notebook:2025.1
+# Pull from CANFAR's public external mirror instead of the internal network
+FROM images.canfar.net/skaha/base:latest
 
 USER root
 
